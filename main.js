@@ -1,6 +1,6 @@
 /* Sending Email from Contact Section */
 (function () {
-    emailjs.init("user_xrRjTKr9MdESSiAEa8RIA");
+    emailjs.init("user_8jpCBfrwekMP73867CLpC");
 })();
 
 function sendmail() {
@@ -14,5 +14,5 @@ function sendmail() {
             message: userMessage
         };
 
-        emailjs.send('service_mt3wqrh', 'template_s0h1dwo', contactParams).then(function (res) {})
+        emailjs.send('service_z6ymxkt', 'template_q66697q', contactParams).then(function (res) {})
 }
